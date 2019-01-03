@@ -1,2 +1,2 @@
-# Ejercicio-calculadora
-Ejercicio calculadora Hack a Bos
+# Práctica-html
+Práctica html Hack a Bos
