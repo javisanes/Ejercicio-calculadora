@@ -8,7 +8,7 @@ html {
     text-align: center;
     margin: 0;
     padding: 20px 0;    
-    color: #00539F;
+    color: darkgreen;
     text-shadow: 3px 3px 1px black;
   }
   
@@ -19,15 +19,15 @@ html {
   }
 
   html {
-      background-color: dimgrey;
+      background-color: darkgreen;
   }
 
   body {
-      width: 500px;
+      width: 600px;
       margin: 0 auto;
-      background-color: sandybrown;
+      background-color: lightgray;
       padding: 0 20px 20px 20px;
-      border: 5px solid black;
+      border: none;
 
   }
 

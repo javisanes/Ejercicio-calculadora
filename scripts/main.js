@@ -2,10 +2,10 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/firefox.png') {
-      myImage.setAttribute ('src','images/firefox2.png');
+    if(mySrc === 'images/imagen1.png') {
+      myImage.setAttribute ('src','images/imagen2.png');
     } else {
-      myImage.setAttribute ('src','images/firefox.png');
+      myImage.setAttribute ('src','images/imagen1.png');
     }
 }
 
@@ -13,7 +13,7 @@ var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
 
 function setUserName() {
-    var myName = prompt('Please enter your name.');
+    var myName = prompt('Hola, dime tu nombre.');
     localStorage.setItem('name', myName);
     myHeading.textContent = 'Bienvenido, ' + myName;
   }
